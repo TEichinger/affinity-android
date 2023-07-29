@@ -1,0 +1,40 @@
+{
+  "Title": "Life of Brian",
+  "Year": "1979",
+  "Rated": "R",
+  "Released": "17 Aug 1979",
+  "Runtime": "94 min",
+  "Genre": "Comedy",
+  "Director": "Terry Jones",
+  "Writer": "Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones, Michael Palin",
+  "Actors": "Graham Chapman, John Cleese, Terry Gilliam, Eric Idle",
+  "Plot": "Born on the original Christmas in the stable next door to Jesus, Brian of Nazareth spends his life being mistaken for a messiah.",
+  "Language": "English, Latin",
+  "Country": "UK",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMzAwNjU1OTktYjY3Mi00NDY5LWFlZWUtZjhjNGE0OTkwZDkwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "8.1/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "97%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "75/100"
+    }
+  ],
+  "Metascore": "75",
+  "imdbRating": "8.1",
+  "imdbVotes": "327,002",
+  "imdbID": "tt0079470",
+  "Type": "movie",
+  "DVD": "30 Apr 1999",
+  "BoxOffice": "N/A",
+  "Production": "Warner Bros. Pictures",
+  "Website": "http://www.pythonline.com",
+  "Response": "True"
+}

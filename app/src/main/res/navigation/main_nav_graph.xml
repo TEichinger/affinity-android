@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_explorer">
+    <fragment
+        android:id="@+id/navigation_explorer"
+        android:name="de.tub.affinity3.android.fragments.ExperimentExplorerFragment"
+        android:label="@string/title_explorer"
+        tools:layout="@layout/fragment_experiment_explorer" />
+    <fragment
+        android:id="@+id/navigation_movies"
+        android:name="de.tub.affinity3.android.fragments.MoviesFragment"
+        android:label="@string/title_movies"
+        tools:layout="@layout/fragment_movies">
+        <action
+            android:id="@+id/action_navigation_movielist_to_movieDetailsActivity"
+            app:destination="@+id/movieDetailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_recommended"
+        android:name="de.tub.affinity3.android.fragments.RecommendationsFragment"
+        android:label="Recommended"
+        tools:layout="@layout/fragment_recommendations" />
+    <fragment
+        android:id="@+id/navigation_experiment"
+        android:name="de.tub.affinity3.android.fragments.ExperimentFragment"
+        android:label="Experiment"
+        tools:layout="@layout/fragment_experiment" />
+    <activity
+        android:id="@+id/movieDetailsActivity"
+        android:name="de.tub.affinity3.android.activities.MovieDetailsActivity"
+        android:label="activity_movie_details"
+        tools:layout="@layout/activity_movie_details" />
+</navigation>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <CheckBoxPreference-->
+<!--        android:defaultValue="true"-->
+<!--        android:icon="@drawable/ic_share"-->
+<!--        android:key="@string/pref_share_key"-->
+<!--        android:summary="Send and receive ratings from other users"-->
+<!--        android:title="@string/share_ratings" />-->
+
+    <Preference
+        android:icon="@drawable/ic_star_half"
+        android:key="@string/pref_rate_again_key"
+        android:summary="@string/clears_all_your_movie_ratings"
+        android:title="@string/clear_own_ratings" />
+
+    <Preference
+        android:icon="@drawable/ic_delete_forever"
+        android:key="@string/pref_clear_ratings_key"
+        android:summary="@string/clears_database_removing_ratings_of_other_users"
+        android:title="@string/clear_nearby_ratings" />
+
+    <Preference
+        android:icon="@drawable/ic_baseline_privacy_tip"
+        android:key="@string/pref_privacy_regions_settings_key"
+        android:summary="@string/pref_privacy_regions_settings_summary"
+        android:title="@string/pref_privacy_regions_settings_title" />
+
+    <Preference
+        android:icon="@drawable/ic_export"
+        android:key="@string/pref_export"
+        android:summary="@string/generate_csv_and_send"
+        android:title="@string/export_data" />
+
+
+    <PreferenceCategory
+        android:key="pref_category_dev"
+        android:title="Dev">
+
+        <Preference
+            android:key="@string/pref_own_ratings"
+            android:summary="0 Ratings found"
+            android:title="Create Profile Ratings" />
+
+        <Preference
+            android:key="@string/pref_external_ratings"
+            android:summary="0 Ratings found"
+            android:title="Create Nearby User Ratings" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_experiments_menu_key"
+            android:icon="@drawable/ic_baseline_science_24"
+            android:summary="Adds a new tab for experiment conduction in the main menu"
+            android:title="@string/show_experiments_menu" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="pref_category_about"
+        android:title="@string/about">
+
+        <Preference
+            android:key="@string/pref_version_key"
+            android:summary="1.0"
+            android:title="@string/pref_version_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

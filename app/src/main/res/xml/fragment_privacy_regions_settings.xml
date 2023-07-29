@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_share"
+        android:key="@string/pref_privacy_regions_enabled_key"
+        android:summary="@string/pref_privacy_regions_enabled_summary"
+        android:title="@string/pref_privacy_regions_enabled_title" />
+
+    <Preference
+        android:icon="@drawable/ic_baseline_map"
+        android:key="@string/pref_privacy_regions_key"
+        android:summary="@string/pref_privacy_regions_summary"
+        android:title="@string/pref_privacy_regions_title" />
+
+    <Preference
+        android:icon="@drawable/ic_baseline_assistant"
+        android:key="@string/pref_sharing_region_recommendations_key"
+        android:summary="@string/pref_sharing_region_recommendations_summary"
+        android:title="@string/pref_sharing_region_recommendations_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        android:key="@string/pref_context_sensing_key"
+        android:summary="@string/pref_context_sensing_summary"
+        android:title="@string/pref_context_sensing_title" />
+
+</PreferenceScreen>

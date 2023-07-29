@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>F57423
+    <color name="colorPrimary">#FBFBFB</color>
+    <color name="colorPrimaryDark">#F5F5F5</color>
+    <color name="colorAccent">#F57423</color>
+    <color name="colorSecondary">#358288</color>
+
+    <color name="black_40">#66000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="dividerColor">#D8D8D8</color>
+    <color name="colorOwnRating">#F5A623</color>
+    <color name="lightGrey">#d3d3d3</color>
+    <color name="darkGrey">#4A4A4A</color>
+
+    <color name="metacritic_green">#7fc84e</color>
+    <color name="metacritic_red">#ed3323</color>
+    <color name="metacritic_orange">#f9cc55</color>
+
+
+</resources>

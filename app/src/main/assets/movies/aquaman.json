@@ -1,0 +1,40 @@
+{
+  "Title": "Aquaman",
+  "Year": "2018",
+  "Rated": "N/A",
+  "Released": "21 Dec 2018",
+  "Runtime": "143 min",
+  "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+  "Director": "James Wan",
+  "Writer": "David Leslie Johnson-McGoldrick (screenplay by), Will Beall (screenplay by), Geoff Johns (story by), James Wan (story by), Will Beall (story by), Mort Weisinger (Aquaman created by), Paul Norris (Aquaman created by)",
+  "Actors": "Jason Momoa, Amber Heard, Willem Dafoe, Patrick Wilson",
+  "Plot": "Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.",
+  "Language": "English",
+  "Country": "Australia, USA",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.9/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "70%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "53/100"
+    }
+  ],
+  "Metascore": "53",
+  "imdbRating": "7.9",
+  "imdbVotes": "24,893",
+  "imdbID": "tt1477834",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "Warner Bros. Pictures",
+  "Website": "http://www.aquamanmovie.com/",
+  "Response": "True"
+}

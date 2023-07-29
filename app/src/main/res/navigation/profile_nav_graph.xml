@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="de.tub.affinity3.android.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_profileFragment_to_movieDetailsActivity"
+            app:destination="@id/movieDetailsActivity2" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="de.tub.affinity3.android.fragments.SettingsFragment"
+        android:label="Settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_privacyRegionsSettingsFragment"
+            app:destination="@id/privacyRegionsSettingsFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/movieDetailsActivity2"
+        android:name="de.tub.affinity3.android.activities.MovieDetailsActivity"
+        android:label="activity_movie_details"
+        tools:layout="@layout/activity_movie_details" />
+    <fragment
+        android:id="@+id/privacyRegionsSettingsFragment"
+        android:name="de.tub.affinity3.android.fragments.PrivacyRegionsSettingsFragment"
+        android:label="PrivacyRegionsSettingsFragment" />
+</navigation>

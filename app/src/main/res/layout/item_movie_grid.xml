@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/spacing_tiny"
+    android:paddingBottom="@dimen/spacing_tiny"
+    android:layout_marginStart="@dimen/spacing_tiny"
+    android:layout_marginEnd="@dimen/spacing_tiny"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagePoster"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:src="@drawable/venom" />
+
+        <View
+            android:id="@+id/ratedMask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_50" />
+
+        <TextView
+            android:id="@+id/textRating"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_gravity="center"
+            android:textColor="@android:color/primary_text_dark"
+            android:layout_width="wrap_content"
+            android:drawableTop="@drawable/ic_star_white"
+            android:drawablePadding="@dimen/spacing_tiny"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            tools:text="7.1" />
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
